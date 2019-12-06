@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+*Answer* - We learned the ability to apply and create custom middleware and how to use server side routing.
+
 - [ ] Describe Middleware?
+
+*Answer* - Functions that are applied to requests that execute specific code before that request is completed.
 
 - [ ] Describe a Resource?
 
+*Answer* - A categorized set of data given from the server. In this case the "projects" and "actions"
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+*Answer* - Status codes that properly identify what took place after the request was sent.
+
 - [ ] How can we partition our application into sub-applications?
+
+*Answer* - By using the express router and using "const example = require("./example")" to import files to use seperate files/folders for seperate endpoints.
 
 ## Minimum Viable Product
 
