@@ -27,17 +27,19 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 `;
 
 const ProjectContainer = styled.div`
     width: 50%;
     padding: 20px;
-    background: green;
+    background: lime;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: flex-start;
+    text-align: center;
 `;
 
 const ProjectCard = styled.div`
@@ -50,4 +52,5 @@ const ProjectCard = styled.div`
     justify-content: space-between;
     align-items: flex-start;
     text-align: left;
+    text-align: center;
 `;
